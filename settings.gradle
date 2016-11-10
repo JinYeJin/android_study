@@ -1,1 +1,1 @@
-include ':app', ':quick-cording'
+include ':app', ':quick-cording', ':quick-cording-templete'
