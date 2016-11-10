@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Android_study.iml" filepath="$PROJECT_DIR$/Android_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/quick-cording/quick-cording.iml" filepath="$PROJECT_DIR$/quick-cording/quick-cording.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-cording-templete/quick-cording-templete.iml" filepath="$PROJECT_DIR$/quick-cording-templete/quick-cording-templete.iml" />
     </modules>
   </component>
 </project>
