@@ -12,5 +12,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Press the button
+
+       Start: start deposit and withdraw
+       Clear: clear content"
+        android:id="@+id/anouncement"
+        android:layout_marginBottom="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_layout"
+        android:layout_below="@+id/anouncement"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"/>
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_start"
+            android:text="clear"/>
+    </RelativeLayout>
+    <TextView
+        android:text="Please press the start button"
+        android:id="@+id/view_result"
+        android:layout_below="@+id/button_layout"
+        android:paddingTop="30dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
