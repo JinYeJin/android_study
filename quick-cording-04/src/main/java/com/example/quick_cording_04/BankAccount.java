@@ -10,16 +10,12 @@ public class BankAccount {
         return balance;
     }
 
-    public void withDraw(int amount) {
-        balance -= amount;
-    }
-
-    public void add(int money) {
+    public void deposit(int money) {
         balance += money;
         System.out.println("총합 : " + balance + " " + money + " 만큼 입금");
     }
 
-    public void delete(int money) {
+    public void withdraw(int money) {
         balance -= money;
         System.out.println("총합 : " + balance + " " + money + " 만큼 출금");
     }
