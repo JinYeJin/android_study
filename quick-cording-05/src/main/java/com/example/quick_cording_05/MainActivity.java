@@ -14,7 +14,7 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class
 MainActivity extends AppCompatActivity {
@@ -26,8 +26,8 @@ MainActivity extends AppCompatActivity {
      */
     private GoogleApiClient client;
 
-    final ArrayList<String> string_arr = new ArrayList<String>();
-    final ArrayList<Integer> integer_arr = new ArrayList<Integer>();
+    final LinkedList<String> string_arr = new LinkedList<String>();
+    final LinkedList<Integer> integer_arr = new LinkedList<Integer>();
 
 
     @Override
