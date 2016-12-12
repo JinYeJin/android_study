@@ -1,1 +1,1 @@
-include ':app', ':quick-cording', ':quick-cording-05', ':quick-cording-04', ':SlidingUp', ':mylogger'
+include ':app', ':quick-cording', ':quick-cording-05', ':quick-cording-04', ':SlidingUp', ':mylogger', ':mylogger.ver2', ':quick-cording-02'
